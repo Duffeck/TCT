@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21513DB275EA14B0008F399 /* GameSettingSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513DA275EA14B0008F399 /* GameSettingSetupView.swift */; };
+		B21513DD275EB7B80008F399 /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513DC275EB7B80008F399 /* GameStartView.swift */; };
+		B21513E6275EB82F0008F399 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513DE275EB82E0008F399 /* Player.swift */; };
+		B21513E7275EB82F0008F399 /* FourPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513DF275EB82F0008F399 /* FourPlayerView.swift */; };
+		B21513E8275EB82F0008F399 /* TwoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E0275EB82F0008F399 /* TwoPlayerView.swift */; };
+		B21513E9275EB82F0008F399 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E1275EB82F0008F399 /* PlayerView.swift */; };
+		B21513EA275EB82F0008F399 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E2275EB82F0008F399 /* HistoryView.swift */; };
+		B21513EB275EB82F0008F399 /* OnePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E3275EB82F0008F399 /* OnePlayerView.swift */; };
+		B21513EC275EB82F0008F399 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E4275EB82F0008F399 /* CalculatorView.swift */; };
+		B21513ED275EB82F0008F399 /* ThreePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21513E5275EB82F0008F399 /* ThreePlayerView.swift */; };
 		B25CCC9A275DC2BF00783BCE /* TabletopCurrencyTracker.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = B2F9AD44275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld */; };
 		B2F9AD3A275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD39275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift */; };
 		B2F9AD3C275DA3F3009669C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD3B275DA3F3009669C0 /* ContentView.swift */; };
@@ -18,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21513DA275EA14B0008F399 /* GameSettingSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingSetupView.swift; sourceTree = "<group>"; };
+		B21513DC275EB7B80008F399 /* GameStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+		B21513DE275EB82E0008F399 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B21513DF275EB82F0008F399 /* FourPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourPlayerView.swift; sourceTree = "<group>"; };
+		B21513E0275EB82F0008F399 /* TwoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPlayerView.swift; sourceTree = "<group>"; };
+		B21513E1275EB82F0008F399 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B21513E2275EB82F0008F399 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B21513E3275EB82F0008F399 /* OnePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePlayerView.swift; sourceTree = "<group>"; };
+		B21513E4275EB82F0008F399 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		B21513E5275EB82F0008F399 /* ThreePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePlayerView.swift; sourceTree = "<group>"; };
 		B2F9AD36275DA3F3009669C0 /* TabletopCurrencyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletopCurrencyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F9AD39275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletopCurrencyTrackerApp.swift; sourceTree = "<group>"; };
 		B2F9AD3B275DA3F3009669C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +86,16 @@
 				B2F9AD42275DA3F4009669C0 /* Persistence.swift */,
 				B2F9AD44275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld */,
 				B2F9AD3F275DA3F4009669C0 /* Preview Content */,
+				B21513DA275EA14B0008F399 /* GameSettingSetupView.swift */,
+				B21513DC275EB7B80008F399 /* GameStartView.swift */,
+				B21513E4275EB82F0008F399 /* CalculatorView.swift */,
+				B21513DF275EB82F0008F399 /* FourPlayerView.swift */,
+				B21513E2275EB82F0008F399 /* HistoryView.swift */,
+				B21513E3275EB82F0008F399 /* OnePlayerView.swift */,
+				B21513DE275EB82E0008F399 /* Player.swift */,
+				B21513E1275EB82F0008F399 /* PlayerView.swift */,
+				B21513E5275EB82F0008F399 /* ThreePlayerView.swift */,
+				B21513E0275EB82F0008F399 /* TwoPlayerView.swift */,
 			);
 			path = TabletopCurrencyTracker;
 			sourceTree = "<group>";
@@ -158,10 +188,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21513DB275EA14B0008F399 /* GameSettingSetupView.swift in Sources */,
+				B21513EA275EB82F0008F399 /* HistoryView.swift in Sources */,
 				B2F9AD43275DA3F4009669C0 /* Persistence.swift in Sources */,
+				B21513ED275EB82F0008F399 /* ThreePlayerView.swift in Sources */,
+				B21513EB275EB82F0008F399 /* OnePlayerView.swift in Sources */,
+				B21513E7275EB82F0008F399 /* FourPlayerView.swift in Sources */,
+				B21513E9275EB82F0008F399 /* PlayerView.swift in Sources */,
 				B2F9AD3C275DA3F3009669C0 /* ContentView.swift in Sources */,
 				B2F9AD57275DBC78009669C0 /* GameSetup+CoreDataClass.swift in Sources */,
+				B21513EC275EB82F0008F399 /* CalculatorView.swift in Sources */,
+				B21513E6275EB82F0008F399 /* Player.swift in Sources */,
+				B21513DD275EB7B80008F399 /* GameStartView.swift in Sources */,
 				B2F9AD3A275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift in Sources */,
+				B21513E8275EB82F0008F399 /* TwoPlayerView.swift in Sources */,
 				B2F9AD58275DBC78009669C0 /* GameSetup+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
