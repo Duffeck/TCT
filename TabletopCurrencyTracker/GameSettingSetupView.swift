@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GameSettingSetupView: View {
     @Environment(\.managedObjectContext) private var viewContext
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State var description = ""
     @State var minPlayers : Int16 = 1
     @State var maxPlayers : Int16 = 1
@@ -40,6 +41,7 @@ struct GameSettingSetupView: View {
 
                     do {
                         try viewContext.save()
+                        self.presentationMode.wrappedValue.dismiss()
                     } catch {
                         let nsError = error as NSError
                         fatalError("Erro ao salvar \(nsError), \(nsError.userInfo)")
