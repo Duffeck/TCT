@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25CCC9A275DC2BF00783BCE /* TabletopCurrencyTracker.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = B2F9AD44275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld */; };
 		B2F9AD3A275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD39275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift */; };
 		B2F9AD3C275DA3F3009669C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD3B275DA3F3009669C0 /* ContentView.swift */; };
 		B2F9AD3E275DA3F4009669C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F9AD3D275DA3F4009669C0 /* Assets.xcassets */; };
 		B2F9AD41275DA3F4009669C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F9AD40275DA3F4009669C0 /* Preview Assets.xcassets */; };
 		B2F9AD43275DA3F4009669C0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD42275DA3F4009669C0 /* Persistence.swift */; };
-		B2F9AD46275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD44275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld */; };
+		B2F9AD57275DBC78009669C0 /* GameSetup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD55275DBC78009669C0 /* GameSetup+CoreDataClass.swift */; };
+		B2F9AD58275DBC78009669C0 /* GameSetup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9AD56275DBC78009669C0 /* GameSetup+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B2F9AD40275DA3F4009669C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2F9AD42275DA3F4009669C0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B2F9AD45275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabletopCurrencyTracker.xcdatamodel; sourceTree = "<group>"; };
+		B2F9AD55275DBC78009669C0 /* GameSetup+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSetup+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B2F9AD56275DBC78009669C0 /* GameSetup+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSetup+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		B2F9AD38275DA3F3009669C0 /* TabletopCurrencyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				B2F9AD4C275DAED7009669C0 /* Model */,
 				B2F9AD39275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift */,
 				B2F9AD3B275DA3F3009669C0 /* ContentView.swift */,
 				B2F9AD3D275DA3F4009669C0 /* Assets.xcassets */,
@@ -71,6 +76,15 @@
 				B2F9AD40275DA3F4009669C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2F9AD4C275DAED7009669C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9AD55275DBC78009669C0 /* GameSetup+CoreDataClass.swift */,
+				B2F9AD56275DBC78009669C0 /* GameSetup+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25CCC9A275DC2BF00783BCE /* TabletopCurrencyTracker.xcdatamodeld in Resources */,
 				B2F9AD41275DA3F4009669C0 /* Preview Assets.xcassets in Resources */,
 				B2F9AD3E275DA3F4009669C0 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +160,9 @@
 			files = (
 				B2F9AD43275DA3F4009669C0 /* Persistence.swift in Sources */,
 				B2F9AD3C275DA3F3009669C0 /* ContentView.swift in Sources */,
-				B2F9AD46275DA3F4009669C0 /* TabletopCurrencyTracker.xcdatamodeld in Sources */,
+				B2F9AD57275DBC78009669C0 /* GameSetup+CoreDataClass.swift in Sources */,
 				B2F9AD3A275DA3F3009669C0 /* TabletopCurrencyTrackerApp.swift in Sources */,
+				B2F9AD58275DBC78009669C0 /* GameSetup+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
